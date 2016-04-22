@@ -20,7 +20,10 @@ def makeBoard(	width=7		#Width of the Board
 			 
 	#create an two-dimensional list [columns][rows] and return it 		 
 	return [[0]*height for i in range(width)]
-
+#
+#END Of FUNCTION: makeBoard
+#
+#----------------------------------------------------------------------
 	
 # FUNCTION: addCoin
 #
@@ -49,7 +52,7 @@ def addCoin(board			#the play board
 	print("Column is full. Can't add coin.")
 	return False
 #
-#END Of FUNCTION: makeBoard
+#END Of FUNCTION: addCoin
 #
 #----------------------------------------------------------------------
 
